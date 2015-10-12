@@ -51,7 +51,7 @@ class CycloneSlider_ExportPage extends CycloneSlider_WpAdminSubPage{
 	/**
     * Render page. This function should output the HTML of the page.
     */
-    public function render_page( $post ){
+    public function render_page(){
         $current_step = isset($_GET['step']) ? (int) $_GET['step'] : 1;
 		
 		$vars = array();
